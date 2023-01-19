@@ -3,7 +3,7 @@ import json
 #Creating settings.json
 def create_json() : 
     with open("settings.json", "w") as f : 
-        address = input("Server Address: ")
+        address = input("Server Address (Ex: 192.168.1.180): ")
         json_dic = {"address" : address} #Creating JSON
         json.dump(json_dic, f, indent=4) #Writing to settings.JSON
 
