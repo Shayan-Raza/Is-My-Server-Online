@@ -1,2 +1,5 @@
 # Python VENV
 /server-online
+
+#Pycache
+/__pycache__
