@@ -2,5 +2,8 @@ from ping3 import ping
 
 #Ping server 
 def ping_server(address) : 
-    result = ping(address)
-    return result
+    try: 
+        result = ping(address)
+        return result
+    except: 
+        print("Failed to ping server")
